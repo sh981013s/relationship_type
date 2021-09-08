@@ -1,5 +1,7 @@
 @import './reset.css';
 @import './default.css';
+@import './qna.css';
+@import './animation.css';
 
 #main {
     background-color: whitesmoke;

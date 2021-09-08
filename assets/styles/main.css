@@ -1,0 +1,17 @@
+@import './reset.css';
+@import './default.css';
+
+#main {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+}

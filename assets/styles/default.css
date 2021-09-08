@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+html {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background-color:pink;
+}

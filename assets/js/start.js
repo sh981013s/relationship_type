@@ -7,6 +7,14 @@ const result = document.querySelector('#result');
 const endPoint = 12;
 const select = [];
 
+function restart() {
+    location.reload();
+}
+
+const restartBtn = document.querySelector('.restart')
+
+restartBtn.addEventListener('click', restart);
+
 function calResult() {
     const pointArray = [
         { name: 'mouse', value: 0, key: 0},

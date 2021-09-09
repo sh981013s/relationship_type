@@ -15,15 +15,24 @@
 }
 
 .kakao {
-    color: white;
+    color: #000;
     background-color: #FEE500;
     font-size: 20px;
     border: 0;
     border-radius: 20px;
 }
 
+.restart {
+    color: #000;
+    background-color: #e16437;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+}
+
 .kakao:hover,
-.kakao:focus {
+.kakao:focus,
+.restart:hover,
+.restart:focus {
     background-color: whitesmoke;
-    color: #FEE500;
 }

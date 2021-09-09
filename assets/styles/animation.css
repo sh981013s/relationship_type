@@ -17,3 +17,13 @@
     from { opacity: 1;}
     to { opacity: 0; }
 }
+
+.fadein {
+    animation: fadein;
+    animation-duration: 0.5s;
+}
+
+.fadeout {
+    animation: fadeout;
+    animation-duration: 0.5s;
+}

@@ -1,6 +1,6 @@
 function kakaoShare() {
-    Kakao.Link.createDefaultButton({
-        container: '#CONTAINER_ID',
+    console.log(11);
+    Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
         title: '디저트 사진',

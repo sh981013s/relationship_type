@@ -2,6 +2,7 @@
 @import './default.css';
 @import './qna.css';
 @import './animation.css';
+@import './result.css';
 
 #main {
     background-color: whitesmoke;

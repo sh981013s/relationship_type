@@ -27,6 +27,12 @@
     <link rel="stylesheet" href="./assets/styles/main.css">
     <script defer src="./assets/js/start.js"></script>
     <script defer src="./assets/js/data.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('4e5c0c4c4dfaa81f8f7b5589628be199');
+        Kakao.isInitialized();
+    </script>
+    <script defer src="./assets/js/share.js"></script>
     <title>십이간지 연애유형</title>
 </head>
 <body>
@@ -62,7 +68,7 @@
             <div class="resultDesc">
 
             </div>
-            <button type="button" id="start" class="kakao mt-3 py-2 px-3">공유하기</button>
+            <button type="button" id="start" class="kakao mt-3 py-2 px-3" onclick="js:kakaoShare()">공유하기</button>
         </section>
     </div>
 
